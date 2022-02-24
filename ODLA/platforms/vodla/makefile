@@ -3,7 +3,7 @@ CFLAGS = -fPIC -shared -std=c++14
 INCLUDES = -I./include
 #LIBS = -lvodh_sdk -L/usr/local/lib
 LIBS = -lvodh_sdk -L.
-SRCS = vODLA.cpp
+SRCS = vODLA.cpp cJSON.c
 MAIN = libvodla.so
 DST = /usr/local/lib
 

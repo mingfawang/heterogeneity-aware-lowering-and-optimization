@@ -276,7 +276,7 @@ vodh_ret vodh_sa_get_apply_key(void* vodh_handle, void** outbuf,
 void vodh_sa_free_apply_key(void* vodh_handle, void* keybuffer);
 
 vodh_ret vodh_sa_res_apply(void* vodh_handle, const char* applyinfo,
-                           u32 bufflen);
+                           u32 bufflen, bool isreapply);
 
 vodh_ret vodh_sa_res_release(void* vodh_handle, const char* releaseinfo,
                              u32 bufflen);
